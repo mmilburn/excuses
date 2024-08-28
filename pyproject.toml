@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "excuses"
+version = "0.1.0"
+description = ""
+package-mode = false
+authors = ["Mark Milburn <mark.a.milburn@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.2.15"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.2.14"
+langserve = {extras = ["all"], version = "^0.2.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
